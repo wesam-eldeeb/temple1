@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html 5</title>
+
+    <!-- 
+    
+
+            tags : 
+                1- opening closing tag (nested tag) : <tagname> .... </tagname>
+                            p  , div , span , a
+
+                2- self closing tag (empty tag) : <tagname />
+                            img , link , hr , br
+                            
+                            
+            html5 (latest version) : new elements (new semantic tags) ,
+                                     new input types and attrs , media tags (audio , video) , graphic tags (canvas , svg)
+                                     js apis (local storage , session stroage , geolocation)                
+
+    
+            semantic tags : nav , footer , header , section , article , aside , details , summary , ......  
+            
+                        1- clean code 
+                        2- seo : search engine optimization
+                       
+
+    -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <section class="preloader">
+        <section class="preloader-circle"></section>
+        <img src="images/loder.png" alt="">
+    </section>
+
+    <nav >
+        <img src="images/logo.png" alt="">
+        <section class="links">
+           <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+           <a href="#" class="visit-us">visit us</a>
+        </section>
+        <section class="clear"></section>
+    </nav>
+
+    <header>
+
+        <section class="overlay"></section>
+
+
+        <section class="header-content">
+            <img src="images/hero-icon.png" alt="">
+            <section style="overflow: hidden;">
+
+                <h1 class="h1">We make cloths that suit you</h1>
+                <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sed, repellat excepturi tempore quas pariatur dolorem explicabo adipisci consequuntur voluptates sequi!</p>
+            </section>
+          
+            <a href="#">our services</a>
+        </section>
+
+        <section class="header-img">
+            <img src="images/h1_hero1.png" alt="" class="myImg">
+        </section>
+    </header>
+
+
+    <main>
+        <section class="offer offer1">
+            <section class="offer-img">
+                <section class="img-container">
+                    <img src="images/offers1.png" alt="">
+                </section>
+            </section>
+            <section class="offer-content">
+                <span>1</span>
+                <h3>Tailor Sweing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </section>
+        </section>
+        <section class="offer offer2">
+            <section class="offer-img">
+                <section class="img-container">
+                <img src="images/offers2.png" alt="">
+                </section>
+            </section>
+            <section class="offer-content">
+                <span>2</span>
+                <h3>Mesurement</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </section>
+        </section>
+        <section class="offer offer3">
+            <section class="offer-img">
+                <section class="img-container">
+                <img src="images/offers3.png" alt="">
+                </section>
+
+            </section>
+            <section class="offer-content">
+                <span>3</span>
+                <h3>Ready-made</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </section>
+        </section>
+    </main>
+
+
+    <section class="about">
+        <section class="about-img">
+            <img src="images/visit_bg.png" alt="">
+        </section>
+
+        <section class="about-content">
+            <section class="about-cap">
+                <h2>About our <br>
+                    tailor house</h2>
+                    <p class="first-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+           
+                    <p class="second-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.
+    
+                    </p>
+                    <button>more about us</button>
+            </section>
+        </section>
+    </section>
+
+    <section class="services">
+        <h2>Why use our service?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Suspendisse varius enim in eros.</p>
+
+        <section class="container">
+            <section class="section service serv1">
+                <img src="images/services1.svg" alt="">
+                <h4>Tailor Sweing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </section>
+            <section class="section service serv2">
+                <img src="images/services2.svg" alt="">
+                <h4>Tailor Sweing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse varius enim in eros elementum tristique.</p>
+            </section>
+            <section class="section service serv3">
+                <img src="images/services3.svg" alt="">
+                <h4>Tailor Sweing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </section>
+            <section class="section service serv4">
+                <img src="https://preview.colorlib.com/theme/tailor/assets/img/icon/services4.svg" alt="">
+                <h4>Tailor Sweing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </section>
+        </section>
+    </section>
+
+
+    <section class="video">
+        <section class="big-bg">
+            <section class="small-bg">
+                <i class="fa-solid fa-play"></i>
+            </section>
+        </section>
+    </section>
+
+    <section class="testimonials">
+        
+        <section class="testimonialConatiner">
+            <section class="testimonial c">
+                <p>Brook presents your services with flexible, convenient and custom layouts. You can select your favorite layouts & elements for your projects with unlimited customization possibilities. Pixel-perfect replication of their designers' skills intended to present your services.</p>
+                <section class="testimonial-founder">
+                    <img src="images/testimonial.png" alt="">
+                    <section class="founder-cap">
+                        <h5>Robart Brown</h5>
+                        <p>Creative designer at colorib</p>
+                    </section>
+                </section>
+            </section>
+
+            <section class="testimonial c">
+                <p>Brook presents your services with flexible, convenient and custom layouts. You can select your favorite layouts & elements for your projects with unlimited customization possibilities. Pixel-perfect replication of their designers' skills intended to present your services.</p>
+                <section class="testimonial-founder">
+                    <img src="images/testimonial.png" alt="">
+                    <section class="founder-cap">
+                        <h5>Robart Brown</h5>
+                        <p>Creative designer at colorib</p>
+                    </section>
+                </section>
+            </section>
+           
+        </section>
+        <button class="prev" > <i class="fa-solid fa-arrow-left" style="color: #fef1ed;">  </i> <span style="color: black;" id="n1" > 1 </span></button>
+        <button class="next" >  <span style="color: #fef1ed;" id="n2"> 2 </span><i class="fa-solid fa-arrow-right" style="color: #fef1ed;" > </i> </button>
+    </section>
+
+
+    
+
+
+
+    <!-- <button class="nav-button" id="prev"> <img src="images/4470662_app_back_mobile_ui_ux_icon.png" > <span id="number1">1</span> </button>
+    <button class="nav-button" id="next"><span id="number2">2</span> <img src="images/4476914_forward_interface_mobile_next_ui_icon.png" > </button> -->
+
+
+    <section class="services">
+        <h2>Follow us on Instagram</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Suspendisse varius enim in eros.</p>
+
+        <section class="container">
+
+            <section class="contentt">
+                <img src="images/instra1.png" alt="">            <section class="lay1">
+                    <a  href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square" style=" color: rgb(255, 239, 239); font-size: 40px; float: left; display: inline;margin-top: 220px;  margin-left: 240px;  position: absolute;"></i></a> </section>
+            </section>
+            <section class="contentt">
+                <img src="images/instra2.png" alt="">   <section class="lay1">
+
+
+                    <a  href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square" style=" color: rgb(255, 239, 239); font-size: 40px; float: left; display: inline;margin-top: 220px;  margin-left: 240px;  position: absolute;"></i></a>
+                </section>
+               
+            </section>
+
+        </section>
+    </section>
+
+
+
+    <section class="new-inputs">
+
+        <form>
+
+            <label > username:
+                <input type="text" name="username" placeholder="username" autocomplete="off" value="mona" readonly>
+            </label>
+            <input type="number" name="age" id="numInp" min="10" max="100" required >
+            <button type="button" onclick="up()">Up</button>
+            <button type="button" onclick="down()">Down</button>
+            <button type="button" onclick="test()">Test</button>
+
+            <input type="range" name="" id="rangeInp" min="0" max="100">
+            <span id="rangeVal"></span>
+            <input type="email" name="" pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,3}" id="">
+
+            <input type="color" name="" id="">
+            <input type="date" name="" id="">
+            <input type="time" name="" id="">
+            <!-- <input type="datetime" name="" id=""> -->
+             <input type="datetime-local" name="" id="">
+             <input type="week" name="" id="">
+             <input type="search" name="" id="">
+             <input type="tel" name="" id="">
+             <input type="url" name="" id="">
+            <input type="submit">
+
+        </form>
+
+    </section>
+
+    <!-- media tags -->
+
+    <section class="media">
+        <!--  controls autoplay muted loop ,  src="media/Anitek_-_Komorebi.ogg" -->
+        <audio  controls>
+            <source src="media/Anitek_-_Komorebi.ogg" type="audio/ogg">
+            <source src="media/Anitek_-_Komorebi.mp3" type="audio/mp3">
+        </audio>
+
+        <button onclick="playAud()">play</button>
+        <button onclick="pauseAud()">pause</button>
+        <button onclick="stopAud()">stop</button>
+        <button onclick="muteAud()">mute</button>
+        <button onclick="test()">test</button>
+        <label >
+            volume :
+            <input type="range" name="" id="volumeInp" min="0" max="1" step="0.1">
+        </label>
+        <label >
+            time :
+            <input type="range" name="" id="timeInp" min="0" max="">
+        </label>
+        
+    </section>
+
+    <footer>
+        This template is made with love ❤
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
